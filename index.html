@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
     <link rel="stylesheet" href="style.css">
-    <title> Login form</title>
 </head>
 <body>
-    <div class="Container">
-        <div class="Login">
-            <div class="header"><h1>Login</h1></div>
-            <div class="main">
-                <form>
-                <input type="text" placeholder="Username">
-                <br>
-                <input type="password" placeholder="password">
-                <br>
-             <a href="#"> forgot My password</a>
-             <br>
-            
-             <button>Login</button>
-            </form>
+    <div class="container">
+        <form>
+            <div class="login">
+               <h1>Login Form</h1>
+               <!-- <div class="button">
+                <a href="#"><i class="ri-facebook-line"></i>Facebook</a>
+                <a href="#"><i class="ri-twitter-fill"></i>Twitter</a>
+               </div> -->
+               <div class="button">
+               <div id="one"><button>Facebook</button></div>
+               <div id="two"><button>Twitter</button></div>
             </div>
-        </div>
-        <div class="img">
-            <span>
-                <h1><bold>Welcome</h1><br>
+               <div class="input-container">
+                <input class="input-field" type="text" placeholder="Email or Phone" name="Email or phone">
 
-                <p>Lorem ipsum, dolor sit amet consectetur pisicing elit. Minima modi<br> veritatis asperiores ovoluptas.</p>
-            </span>
-        </div>
+              </div>
+              <div class="input-container">
+                 <input class="input-field" type="password" placeholder="Password" name="password">
+                
+              </div>
+              <div class="remember">
+               <label><input type="checkbox">Remember me</label>
+               <a href="#">Forgot Password?</a>
+            </div>
+               <!-- <div style="text-align:end"> -->
+              
+            </div>
+            <button  type="submit" class="loginBtn">Login</button>
+               <div class="New"> Not a member ?<a href="#">Signup now</a>  </div>
+                
+              
+            
+
+            </div>
+        </form>
     </div>
 </body>
+</html>
